@@ -1,0 +1,37 @@
+# Site settings
+title: Compiling a Lisp
+# Site's name
+name: Compiling a Lisp
+author: Max Bernstein
+author_nickname: Max Bernstein
+email: lisp@bernsteinbear.com
+description: ""
+baseurl: ""
+url: "https://lispcompiler.com"
+exclude: [vendor]
+
+github:
+  repository_url: https://github.com/tekknolagi/lispcompiler.com
+  branch: main
+
+post_dirs: false
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  hard_wrap: false
+highlighter: rouge
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - rouge
