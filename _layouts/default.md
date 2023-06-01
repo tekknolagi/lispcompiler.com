@@ -9,11 +9,11 @@
   <title>{{ page.title }}</title>
   <style type="text/css">
   body {
-    margin: 40px auto;
+    margin: auto;
     max-width: 650px;
     line-height: 1.6;
     font-size: 18px;
-    padding: 0 10px
+    padding: 0 10px;
     font-family: serif;
   }
   
